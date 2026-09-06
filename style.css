@@ -1,0 +1,27 @@
+QPushButton#feedButton{
+    border-image: url("feed.png") 0 0 0 0 stretch stretch;
+    background-color:transparent;
+    border:none;
+}
+
+QPushButton#feedButton:hover{
+    opacity: 0.9;
+}
+
+QPushButton#feedButton:pressed{
+    margin-top: 2px;
+}
+
+QPushButton#cleanButton{
+    border-image: url("clean.png") 0 0 0 0 stretch stretch;
+    background-color:transparent;
+    border:none;
+}
+
+QPushButton#cleanButton:hover{
+    opacity: 0.9;
+}
+
+QPushButton#cleanButton:pressed{
+    margin-top: 2px;
+}
